@@ -1,0 +1,65 @@
+body{
+    background-image: url(./login_bbackground1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+div{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    max-width: 20%;
+    height: 60%;
+    transform: translate(195%,20%);
+}
+form{    
+    padding-top: 10%;
+    margin: 10%;
+}
+p{
+    color: rgb(201, 198, 198);
+}
+#login{
+    margin-top: 10%;
+    padding: 4%;
+    width: 100%;
+    background-color: red;
+    border: none;
+}
+#login:hover{
+    background-color: rgb(202, 0, 0);
+}
+#login:focus{
+    background-color: rgba(255, 0, 0, 0.521);
+}
+input{
+    font-size: 90%;
+    color: white;
+    padding-bottom: 5%;
+    border: transparent;
+    background-color: black;
+    border-bottom: 1px solid rgb(209, 207, 207);
+    outline: none;
+    width: 100%;
+}
+img{
+    position: absolute;
+    transform: translate(95%,-60%);;
+    height: 25%;
+    width: 35%;
+    border-radius: 50%;
+}
+main{
+background-color: black;
+font-family: sans-serif;
+color: white;
+max-width: 20%;
+height: 75%;
+transform: translate(195%,15%);
+}
+#signin{
+    margin-top: 10%;
+    padding: 4%;
+    width: 100%;
+    background-color: red;
+    border: none;
+}

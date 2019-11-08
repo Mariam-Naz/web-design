@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            Login Form
+        </title>
+        <link rel="stylesheet" href="./stylesheet.css"/>
+        
+        <script>
+            function switchToMainPage(){
+                var user = document.getElementById("name").value;
+                var pass = document.getElementById("password").value
+                if(user == "Mariam Naz"){
+                    if(pass == "moveon2017"){
+                        alert("You are successfully Login");
+                        return true;
+                        }
+                    
+                    else
+                        alert("Username or Password is incorrect");
+                        return false;
+                }
+                else
+                    alert("Username or Password is incorrect");
+                    return false;
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <img src="./login_avatar.jpg">
+        <form id="Login form" action="./website_by_html.html" onsubmit=" return switchToMainPage()">
+           
+            <h4><center>Get Started</center></h4>
+            <p>Username </p>
+            <input type="text" placeholder="Enter Username" id="name"/>
+            <p>Password</p>
+            <input type="password" placeholder="Enter Password" id="password"/>
+           <input type="submit" value="Login" id="login"/>
+            <center><h6>Don't have account?&nbsp;<a href="./HTML_file2.html">Signin</a><h6></center>
+        </div>
+        </form>
+    </body>
+</html>

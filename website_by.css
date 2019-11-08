@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+section{
+    border:1px solid transparent;
+    background-image:  url("./book6.jpg") ;
+    background-size: cover;
+    background-blend-mode: darken;
+    background-blend-mode: soft-light;
+    background-color: rgba(0, 0, 0, 0.308);
+    height: 100%;
+    filter: opacity(110%);
+    border-radius: 0px 0px  350px 0px;
+    overflow: hidden;
+}
+h3{
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color:white;
+    font-size: 1em;
+    font-weight: 50;
+    margin-top: 0%;
+}
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0%;  
+    
+}
+ul li {
+   float: left;
+    width: 269.3px;
+    height: 50px;
+    background-color: black;
+    opacity: .8;
+    line-height: 50px;
+    text-align: center;
+}
+
+ul li a:hover{
+    display: grid;
+    background-color: green;
+    cursor: pointer;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: grid;
+}
+
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
+    color: rgba(95, 92, 92, 0.829);
+    font-weight: 50;     
+
+}
+h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3em;
+    color: rgba(95, 92, 92, 0.829);
+    font-weight: 50;   
+
+}
+body{
+margin: 0px;
+}
+body article h4{
+    margin-bottom: 0%;
+}
+body article h6{
+    margin-top: 2%;
+}
+
+h1{
+   
+    position: absolute;
+    top: 40%;
+    text-align: left;
+    margin-left: 5%;
+    width: 100%;
+    color:white;
+    font-size: 350%;
+    font-family: 'Righteous', cursive;
+    font-weight: 50;
+}
+input{
+    position: relative;
+    width: 65%;
+    height: 10%;
+    margin-top: 25%;
+    margin-left: 5%; 
+    font-size: 100%;
+    background-color:whitesmoke;
+    border-color: white;
+    outline-color: rgb(47, 47, 49); 
+    
+}
+
+.lg-input{
+    padding:10px 20px;
+    z-index: 4px;
+}
+#our-team h6{
+    font-weight: 5%;
+}
+main  {
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.i h6{
+    position: relative;;
+    padding: 0%;
+    margin: -10%;
+    width: 80%;
+    margin-left: 100%;
+    
+
+}
+main img{
+    position: absolute;
+    border-radius: 300%;
+    margin-left: 90%;
+    position: relative;
+}
+p{
+    font-size: 20px;
+    font-weight: 900;
+    word-spacing: 3px;
+    text-align: left;
+    font-style: italic;
+    color: rgb(105, 103, 103); 
+}
+main #f{
+    margin-top: 5%;
+    margin-left: 80%;
+    font-size: 0.8em;
+    color: black;
+    font-family: sans-serif;
+}
+.fiction{
+    text-decoration: none;  
+    color: white;
+}
+footer{
+    background: rgba(0, 0, 0, 0.966);
+    color: aliceblue;
+}
+footer h3{
+    margin-left: -70%;
+    font-size: 300%;
+}
+footer #c{
+    font-size: 150%;
+    transform: translate(200px,-90px);
+}

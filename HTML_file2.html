@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Login Form
+        </title>
+        <link rel="stylesheet" href="./stylesheet.css"/>
+        
+        <script>
+            function validation(){
+                var name = document.getElementById("name").value;
+                var pass = document.getElementById("password").value;
+                var email = document.getElementById("email").value;
+                if(name == ""){
+                    alert("Please enter Username");
+                    document.Registration_form.name.focus();
+                    return false;
+                }
+                else if(pass == ""){
+                    alert("Please enter Password");
+                    document.Registration_form.password.focus();
+                    return false;
+                }
+                else if(email == ""){
+                    alert("Please enter email");
+                    document.Registration_form.email.focus();
+                    return false;
+                }
+                else{
+                    alert("congratulations! You are successfully registered.");
+                    return true;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <img src="./login_avatar.jpg">
+            <form id="Registration_form" action="./website_by_html.html" onsubmit="return validation()">
+            <h4><center>Sign In</center></h4>
+            <p>Username</p>
+            <input type="text" placeholder="Enter Username" id="name"/>
+            <p>Password</p>
+            <input type="password" placeholder="Enter Password" id="password"/>
+            <p>e-mail</p>
+            <input type="text" placeholder="Enter e-mail" id="email"/>
+          <input type="submit" value="submit"  id="login"/>
+            <center><h6>Already have account?&nbsp;<a href="./HTML_File.html">Login</a><h6></center>
+        </main>
+        </form>
+    </body>
+</html>
